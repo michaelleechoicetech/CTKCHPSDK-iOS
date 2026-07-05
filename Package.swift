@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CTKCHPSDK",
+    name: "CTKCHPSDK-iOS",
     platforms: [
         .iOS(.v15)
     ],
@@ -13,13 +13,10 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(
+        .binaryTarget(
             name: "CTKCHPSDK",
-            dependencies: [],
-            path: "Sources/CTKCHPSDK"),
-        .testTarget(
-            name: "CTKCHPSDKTests",
-            dependencies: ["CTKCHPSDK"],
-            path: "Tests/CTKCHPSDKTests"),
+            url: "https://github.com/michaelleechoicetech/CTKCHPSDK-iOS/releases/download/1.0.0/CTKCHPSDK.xcframework.zip",
+            checksum: "1f77c3e647caa77a5001503a381c8213b02a5415a693d9a02ec0a8c40bc07a5e"
+        )
     ]
 )
