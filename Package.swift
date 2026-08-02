@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CTKCHPSDK",
-            url: "https://github.com/michaelleechoicetech/CTKCHPSDK-iOS/releases/download/v1.0.41/CTKCHPSDK.xcframework.zip",
-            checksum: "d83f9eaef13e9b664b3c992658f9fa0a28a154ae34b7f19b795a50cbb9484fa8"
+            url: "https://github.com/michaelleechoicetech/CTKCHPSDK-iOS/releases/download/v1.0.42/CTKCHPSDK.xcframework.zip",
+            checksum: "afb71819c950c0172e605937d8a30a4b79cdbb9c49754f6ebc4d0861a8ef4e37"
         )
     ]
 )
